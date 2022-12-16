@@ -1,4 +1,4 @@
-import { useForm, Controller } from "react-hook-form";
+import { Controller } from "react-hook-form";
 
 import {InputContainer, IconContainer, InputText, ErrorText} from './styles';
 const Input = ({leftIcon, name, control, errorMessage, ...rest}) => {
